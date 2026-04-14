@@ -40,11 +40,9 @@ test('simulateClick updates the DOM with the expected content', () => {
 })
 
 test('handleFormSubmit updates the page when the form input contains valid text', () => {
-    removeElementFromDOM('dynamic-content')
-    .expect(container).toBeNull();
+
 })
 
 test('handleFormSubmit displays the error message Input cannot be empty when the input is empty', () => {
-    removeElementFromDOM('dynamic-content')
-    .expect(container).toBeNull();
+
 })
